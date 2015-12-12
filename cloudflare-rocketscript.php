@@ -8,7 +8,7 @@
      Author URI: http://nabtron.com/
      Version: 0.1
      Min WP Version: 4.4
-    Max WP Version: 4.4
+     Max WP Version: 4.4
      */
 // prevent direct access
 defined( 'ABSPATH' ) or die( 'Plugin file cannot be accessed directly.' );
