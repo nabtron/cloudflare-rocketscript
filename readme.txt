@@ -10,74 +10,48 @@ Disables or enables cloudflare rocket script on specific files
 
 == Description ==
 
-Disables or enables cloudflare rocket script on specific files
+Plugin for wordpress, allows users to enable or disable rocketscript on selected files
 
-Joomla comes with built-in wrapper which is missed in WordPress by many wordpress users.
+If Rocketscript is set to Manual:
+---------------------------------
+The user is given the option to add the files to turn on rocket script for 
 
-Options in admin panel include:
-<ul>
-<li>http or https (for secure browsing)</li>
-<li>desired url</li>
-<li>select page on which wrapper has to be shown</li>
-<li>height </li>
-<li>width</li>
-<li>show scroll bar or not</li>
-<li>show border or not</li>
-</ul>
+If Rocketscript is set to Automatic:
+---------------------------------
+The user is given the option to add the files to turn off rocket script for 
 
 Up coming version will have many more options
 
-Found a bug or have a feature request ? <a href="http://nabtron.com/wp-wrapper/6908/">
-Report here</a>
+In case of any queries let me know: http://nabtron.com/
+
+Found a bug or have a feature request ? <a href="http://nabtron.com/contact/">Report here</a>
 
 == Installation ==
 
-1. Upload `wpwrapper.php` to the `/wp-content/plugins/` directory
+1. Upload `cloudflare-rocketscript` folder to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Goto: Settings > WP Wrapper to configure the plugin
+3. Goto: "Settings > Cloudflare Rocketscript" to configure the plugin
 
 == Frequently Asked Questions ==
 
-= Can we show wrapper on multiple pages =
+= Should we fill both fields? =
 
-Yes, coming soon in next version
+No, only one field will be used at a time, depending upon your cloudflare settings
 
-= What about using short code? =
+= How to add file names? =
 
-Currently short codes are not supported. Later versions will include option to generate and add short code
+View the source of your frontend and search for .js filenames. Once found, enter the main full file name only (not directory paths) in comma seperated values, like: filename.js,secondfilename.js,thirdfilename.js
 
 == Screenshots ==
 
-1. Wrapper for WordPress pages using iFrame. Various options in admin panel
+1. Cloudflare rocketscript settings for WordPress - Options in admin panel
 
 == Changelog ==
 
-= 1.1.4 =
-* wp 4.2.2 compatible now
-
-= 1.1.3 =
-* wp 4.0 compatible now
-
-= 1.1.2 =
-* wp 3.7.1 compatible now
-
-= 1.1.1 =
-* fixed bug - showing wrapper on non-selected pages
-
-= 1.1 = 
-* Added http / https option for secure websites
-* Minor performance improvement
-
-= 1.0 =
+= 0.1 =
 * Initial release
 
 == Upgrade Notice ==
-
-= 1.1.1 =
-bug fixed - showing wrapper on all pages
-
-= 1.1 = 
-Added https option and minor performance improvement
 
 = 1.0 =
 Initial release
