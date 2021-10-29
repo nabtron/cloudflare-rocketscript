@@ -1,16 +1,16 @@
 === Plugin Name ===
 Contributors: nabtron
-Donate link: http://nabtron.com/nablab/
+Donate link: https://nabtron.com/nablab/
 Tags: cloudflare, rocketscript, enable, disable, automatic, manual, include, exclude
 Requires at least: 4.4
-Tested up to: 4.4
-Stable tag: 0.1
+Tested up to: 5.8.1
+Stable tag: 0.1.4
 
 Disables or enables cloudflare rocket script on specific files
 
 == Description ==
 
-Plugin for wordpress, allows users to enable or disable rocketscript on selected files
+Plugin for wordpress, enables you to enable or disable rocketscript on selected javascript files
 
 If Rocketscript is set to Manual:
 ---------------------------------
@@ -22,14 +22,14 @@ The user is given the option to add the files to turn off rocket script for
 
 Up coming version will have many more options
 
-In case of any queries let me know: http://nabtron.com/
+In case of any queries let me know: https://nabtron.com/
 
-Found a bug or have a feature request ? <a href="http://nabtron.com/contact/">Report here</a>
+Found a bug or have a feature request ? <a href="https://nabtron.com/contact/">Report here</a>
 
 == Installation ==
 
 1. Upload `cloudflare-rocketscript` folder to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
+2. Activate the plugin through the `Plugins` menu in WordPress
 3. Goto: "Settings > Cloudflare Rocketscript" to configure the plugin
 
 == Frequently Asked Questions ==
@@ -44,14 +44,26 @@ View the source of your frontend and search for .js filenames. Once found, enter
 
 == Screenshots ==
 
-1. Cloudflare rocketscript settings for WordPress - Options in admin panel
+1. WP Cloudflare - Cloudflare rocketscript settings for WordPress - Options in admin panel
 
 == Changelog ==
+
+= 0.1.4 =
+* Confirmed WordPress 5.8.1 compatibility
+
+= 0.1.3 =
+* Confirmed WordPress 5.5.3 compatibility
+
+= 0.1.2 =
+* Confirmed WordPress 5.2.3 compatibility
+
+= 0.1.1 =
+* Confirmed WordPress 5.0 compatibility
 
 = 0.1 =
 * Initial release
 
 == Upgrade Notice ==
 
-= 1.0 =
-Initial release
+= 0.1.4 =
+Confirmed WordPress 5.8.1 compatibility
